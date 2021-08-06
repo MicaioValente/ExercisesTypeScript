@@ -1,4 +1,4 @@
-class Pessoa {
+class Pessoa1 {
     protected nome: string
     protected idade: number
     protected cidade: string
@@ -8,7 +8,7 @@ class Pessoa {
         this.cidade = cidade
     }
 }
-class Colaborador extends Pessoa {
+class Colaborador extends Pessoa1 {
     protected salary: number
     protected position: string
     constructor(nome: string,
